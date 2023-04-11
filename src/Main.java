@@ -44,7 +44,7 @@ public class Main {
                     }
                 }
                 case "ADD" -> {
-                    // Добавляем задачу в список
+                    // Добавляем задачу в список задач
                     toDoList.add(text.trim());
                     System.out.println("Добавлена задача " + text.trim());
                 }
